@@ -5,7 +5,7 @@ function Footer() {
     return (
     <footer>
         
-        <div id="logo_ft">
+        <div>
         <img src={logo} alt="Little Lemon" />
         </div>
         <div>

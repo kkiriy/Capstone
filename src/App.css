@@ -23,6 +23,27 @@ nav a {
     padding-bottom: 8px;
     width: 20%;
   }
+section {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  column-gap: 140px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #F4CE14;
+}
+section h1 {
+  font-size: xx-large;
+}
+button {
+  width: 400px;
+  height: 80px;
+  background-color: #495E57;
+  color: #EDEFEE;
+  font-size: x-large;
+  border: solid #495E57;
+  border-radius: 10px;
+}
 footer {
   display: grid;
   justify-content: center;
