@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 #header {
     padding-top: 1rem;
@@ -13,7 +14,6 @@
   font-size: large;
   font-weight: bold;
 }
-
 nav a {
     text-decoration: none;
     color: #495E57;
@@ -23,3 +23,17 @@ nav a {
     padding-bottom: 8px;
     width: 20%;
   }
+footer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 140px;
+  padding-top: 1rem; 
+  background-color: #EDEFEE;
+}
+
+footer .nav-item {
+  display: block;
+  font-size: small;
+  font-weight: bold;
+}
