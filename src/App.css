@@ -44,7 +44,31 @@ section article {
   column-gap: 50px;
   padding-right: 150px;
 }
-
+#testimonials {
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  column-gap: 50px;
+  padding-right: 150px;
+}
+#about {
+  grid-template-columns: 4fr 4fr;
+  column-gap: 50px;
+}
+#about img {
+  width: 300px;
+}
+.picture {
+  position:relative;
+}
+.picture .overlay {
+  position:absolute;
+  top: 10%;
+  left: 40%;
+  margin: -50px 0 0 -50px;
+  height: 100%;
+}
+.form {
+  display: grid; max-width: 200px; gap: 20px
+}
 section h1 {
   font-size: xx-large;
 }
@@ -59,6 +83,13 @@ button {
   border-radius: 10px;
 }
 
+.card {
+  text-align: center;
+  background-color: #FBDABB;
+}
+.card img {
+  width: 100px;
+}
 article img {
   width: 300px;
   height: 200px;

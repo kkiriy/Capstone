@@ -1,7 +1,7 @@
 function BookingForm() {
    return (
       
-<form style="display: grid; max-width: 200px; gap: 20px">
+<form className="form">
    <label for="res-date">Choose date</label>
    <input type="date" id="res-date" />
    <label for="res-time">Choose time</label>
